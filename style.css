@@ -1,0 +1,42 @@
+body{
+    background-color: lightblue;
+    --my-var:red;
+}
+
+.purple-text {
+    color: purple;
+    font-family: 'Roboto', Courier, monospace;
+    font-size: 70px;
+}
+
+.green-text {
+    color:var(--my-var);
+}
+
+.it-photo { 
+    width: 250px;
+    border-style: solid;
+    border-color: yellowgreen ;
+    border-radius: 10%;
+    border-width: 5px;
+}
+
+.block-element {
+        background-color: blueviolet;
+        padding: 5px 40px 150px 40px;
+        border-style: double;
+        border-color: black;
+        border-width: 5px;
+}
+
+[type="radio"] {
+    margin: 10px 20px 10px 20px;
+} 
+
+.div-p {
+    color:var(--my-var);
+}
+
+#number-id{
+     color: brown;
+}
